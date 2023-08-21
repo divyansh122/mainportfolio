@@ -438,6 +438,11 @@ p.head2{
 }
 @media screen and (max-width: 1000px) {
   .impo8{
-    height:200vh;
+    height:130vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .impo8{
+    height: 230vh;
   }
 }
