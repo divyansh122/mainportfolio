@@ -378,6 +378,7 @@ p.head2{
   font-size: 0.7em;
   color: #ffffff;
   text-align: center;
+  margin-top: 50px;
   font-family: 'Roboto', sans-serif;
 }
 #h4footer{
@@ -396,6 +397,8 @@ p.head2{
 
 .socials{
   text-align: center;
+  margin-top: 30px;
+  padding-bottom: 20px;
 }
 #socials1{
   display: inline-block;
@@ -436,14 +439,19 @@ p.head2{
 .heading7{
   margin-top: 50px;
 }
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
   .impo8{
-    height:130vh;
+    height: 170vh;
   }
 }
 @media screen and (max-width: 400px) {
   .impo8{
-    height: 230vh;
+    height: 200vh;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 900px)  {
+  .impo8{
+    height: 90vh;
   }
 }
 .heading10{
@@ -455,4 +463,54 @@ p.head2{
   font-size: 3em;
   color: #f6f5f6;
   margin-top: 30px;
+}
+/* Basic form styles */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  border-bottom: 2px white solid;
+  border-top: none;
+  border-left: none;
+  color: #f6f5f6;
+  border-right:none ;
+}
+
+input[type="submit"] {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  form {
+    max-width: 100%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+}
+.heading8{
+  font-family: 'Anton', sans-serif;
+  font-size: 3em;
+  color: #ffbf00;
+}
+.heading9{
+  color: #ffffff;
 }
