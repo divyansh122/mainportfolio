@@ -1,14 +1,6 @@
-
-
-@font-face {
-  font-family: font;
-  src: url(FontsFree-Net-Eirian.woff);
-}
 html{
-
   scroll-behavior: smooth;
-  
-  }
+}
 body {
   overflow-x: hidden;
   background-color: black;
@@ -441,7 +433,7 @@ p.head2{
 }
 @media only screen and (max-width: 700px) and (min-width: 400px)  {
   .impo8{
-    height: 170vh;
+    height: 180vh;
   }
 }
 @media screen and (max-width: 400px) {
