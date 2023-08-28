@@ -254,16 +254,16 @@ margin-top:100px ;
 span.air12{
   font-size: 1.5em;
   font-family: 'Patua One', cursive; 
-  color: #DA9F93;
+  color: #ffea00;
 }
 
 /* CSS */
 .button-34 {
-  background: #DA9F93;
+  background: #ffea00;
   border-radius: 999px;
-  box-shadow: #DA9F93 0 10px 20px -10px;
+  box-shadow: #ffea00 0 10px 20px -10px;
   box-sizing: border-box;
-  color: #ffffff;
+  color:#000000;
   cursor: pointer;
   font-family: 'Unbounded', cursive;
   font-size: 16px;
@@ -384,7 +384,7 @@ p.head2{
 #h4footer{
   margin-top: 5px;
   text-align: center;
-  color: #DA9F93;
+  color: #ffea00;
   font-family: 'League Gothic', sans-serif;
   font-size: 2em;
 }
@@ -417,7 +417,7 @@ p.head2{
   color: #f6f5f6;
 }
 .heading2{
-  color: #DA9F93;
+  color: #ffea00;
 }
 .heading4{
   font-size: 1em;
@@ -426,7 +426,7 @@ p.head2{
 
 }
 .heading5{
-  color: #DA9F93;
+  color: #ffea00;
   font-size: 1.3em;
   font-family: 'Anton', sans-serif;
 }
@@ -439,7 +439,7 @@ p.head2{
 .heading7{
   margin-top: 50px;
 }
-@media only screen and (max-width: 600px) and (min-width: 400px)  {
+@media only screen and (max-width: 700px) and (min-width: 400px)  {
   .impo8{
     height: 170vh;
   }
@@ -456,7 +456,7 @@ p.head2{
 }
 .heading10{
   color: #000000;
-  background-color: #DA9F93;
+  background-color: #ffea00;
 }
 .heading11{
   font-family: 'Anton', sans-serif;
@@ -477,6 +477,7 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 textarea {
   width: 100%;
   padding: 8px;
@@ -490,11 +491,14 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #555;
-  color: #fff;
+  background-color: #ffea00;
+  color: #000000;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+}
+input[type="submit"]:hover {
+  box-shadow: 0 8px 16px 0 rgba(235, 232, 232, 0.2), 0 6px 20px 0 rgba(250, 247, 247, 0.19);
 }
 @media (max-width: 600px) {
   form {
