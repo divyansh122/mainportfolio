@@ -116,6 +116,12 @@ a.air3:hover:before {
   
 }
 @media screen and (max-width: 400px) {
+  .responsive{
+    margin-top: 10px;
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 400px) {
   .impo1 {
     height: 30vh;
     background-color: black;
@@ -191,12 +197,12 @@ a.air7{
 
 .impo3{
   height: 100vh;
-  top: 70px;
   background-color: black;
   box-sizing: border-box;
   position: relative;
   transform-style: preserve-3d;
 }
+
 .air9{
   position: relative;
   text-align: center;
@@ -207,7 +213,7 @@ a.air7{
 }
 @media screen and (max-width: 1000px) {
   .air9{
-    top: 20%;
+    top: 40%;
   }
   .impo3{
     height:30vh;
@@ -216,21 +222,22 @@ a.air7{
     top: 55%;
   }
 }
+@media screen and (max-width: 1000px) {
+  .air9{
+    top: 60%;
+  }
+}
 .impo4{
-  height: 120vh;
+  height: 170vh;
   top: 150px;
   background-color: black;
   box-sizing: border-box;
   position: relative;
 }
-@media screen and (max-width:400px) {
+
+@media screen and (max-width:850px) {
   .impo4{
-    height:180vh;
-  }
-}
-@media screen and (max-width:980px) {
-  .impo4{
-    height: 10vh;
+    height:20vh;
   }
 }
 video.air11{
@@ -361,8 +368,14 @@ p.head2{
 }
 @media screen and (max-width: 1000px) {
   .impo7{
-    margin-top: 150px;
+    margin-top: 160px;
     height: 10vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .impo7{
+    margin-top: 160px;
+  
   }
 }
 
@@ -397,8 +410,7 @@ p.head2{
   align-items: center;
 }
 .impo8{
-  height: 110vh;
-
+  height: 90vh;
 }
 .heading3{
   margin-top: 100px;
@@ -429,21 +441,27 @@ p.head2{
   text-align: justify;
   font-family: 'Poppins', sans-serif;}
 .heading7{
-  margin-top: 50px;
+  margin-top: 10px;
 }
 @media only screen and (max-width: 700px) and (min-width: 400px)  {
   .impo8{
-    height: 180vh;
+    height: 170vh;
   }
 }
+
 @media screen and (max-width: 400px) {
   .impo8{
-    height: 200vh;
+    height: 160vh;
+  }
+}
+@media screen and (max-width: 370px) {
+  .impo8{
+    height: 240vh;
   }
 }
 @media only screen and (max-width: 1200px) and (min-width: 900px)  {
   .impo8{
-    height: 90vh;
+    height: 40vh;
   }
 }
 .heading10{
@@ -456,7 +474,6 @@ p.head2{
   color: #f6f5f6;
   margin-top: 30px;
 }
-/* Basic form styles */
 form {
   max-width: 400px;
   margin: 0 auto;
@@ -509,4 +526,37 @@ input[type="submit"]:hover {
 }
 .heading9{
   color: #ffffff;
+}
+.impo9{
+  
+    height: 100vh;
+    top: 70px;
+    background-color: black;
+    box-sizing: border-box;
+    position: relative;
+    transform-style: preserve-3d;
+  
+}
+.impo11{
+  height: 110vh;
+}
+@media only screen and (max-width: 800px) {
+  .impo11{
+    height: 40vh;
+  }
+}
+.carousel {
+  width:100%;
+  height: 500px;
+  overflow: hidden;
+}
+.carousel .carousel-item {
+  width: 100%;
+  height: 500px;
+  transition: transform 0.5s;
+}
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
