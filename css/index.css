@@ -235,9 +235,9 @@ a.air7{
   position: relative;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:900px) {
   .impo4{
-    height:20vh;
+    height:10vh;
   }
 }
 video.air11{
@@ -336,7 +336,7 @@ p.head2{
 
 @media screen and (max-width:1300px) {
   .impo4{
-    height: 140vh;
+    height: 190vh;
   }
   .impo5{
     height: 46vh;
